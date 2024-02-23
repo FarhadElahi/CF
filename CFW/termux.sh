@@ -158,7 +158,7 @@ warp_plus() {
     fi
 
     echo -e "${green}Downloading and running${purple} Warp+ script...${rest}"
-    wget -O wa.py https://github.com/FarhadElahi/CF/blob/main/CFW%2B/wa.py
+    wget -O wa.py https://raw.githubusercontent.com/FarhadElahi/CF/main/CFW%2B/wa.py
     python wa.py
 }
 
