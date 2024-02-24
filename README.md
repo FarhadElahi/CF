@@ -1,5 +1,5 @@
 `CFW`
-```html
+```javascript
 bash <(curl -fsSL https://raw.githubusercontent.com/FarhadElahi/CF/main/CFW/termux.sh)
 ```
 CFW+
