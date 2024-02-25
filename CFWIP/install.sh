@@ -34,7 +34,7 @@ cfwarpIP(){
 if [[ ! -f "warpendpoint" ]]; then
 echo "Download warp preferred program"
 if [[ -n $cpu ]]; then
-curl -L -o warpendpoint -# --retry 2 https://raw.githubusercontent.com/FarhadElahi/CF/main/CFWIP/install.sh$cpu
+curl -L -o warpendpoint -# --retry 2 https://raw.githubusercontent.com/FarhadElahi/CF/main/CFWIP/$cpu
 fi
 fi
 }
