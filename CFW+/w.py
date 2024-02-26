@@ -8,9 +8,9 @@ import os
 import sys
 os.system("title CloudFlare WARP+")
 os.system('cls' if os.name == 'nt' else 'clear')
-print('          CloudFlare WARP+\n')
-print("")
-print ("___________________________________")
+print('-----------------------------------------------------\n')
+print("       CloudFlare WARP+")
+print ("----------------------------------------------------")
 no = int(input("Type GB Number : "))
 referrer = input("Enter The WARP+ ID : ")
 def genString(stringLength):
