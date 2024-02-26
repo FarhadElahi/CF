@@ -8,8 +8,8 @@ import os
 import sys
 os.system("title CloudFlare WARP+")
 os.system('cls' if os.name == 'nt' else 'clear')
-print('--------------------\n')
-print ('-------------------\n')
+print('---------------------------\n')
+print ('------------------------\n')
 print ("-----------------")
 print("CloudFlare WARP+")
 print ("-----------------")
