@@ -136,12 +136,13 @@ warp -cfon -country SE
 ```
 warp -cfon -country SG
 ```
+___
 ## `🇸🇰 Slovakia`
 ```
 warp -cfon -country SK
 ```
 ___
-> # 🇺🇦 Ukraine
+## 🇺🇦 Ukraine
 ```
 warp -cfon -country UA
 ```
@@ -153,6 +154,6 @@ warp -cfon -country GB
 ___ 
 ## `🇺🇲 United States`
 ```
----
+___
 warp -cfon -country US
 ```
