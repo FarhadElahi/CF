@@ -27,6 +27,8 @@ curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=neve
 - `-country`: ISO 3166-1 alpha-2 country code for Psiphon.
 - `-cfon`: Enable Psiphon over Warp.
 - `-rtt`: scanner rtt threshold, default is `1000`
+- <details>
+  <summary>Country Code's</summary>
 
 🇦🇹 Austria
 ```
@@ -146,7 +148,7 @@ ___
 ```
 warp -cfon -country GB
 ```
-`🇺🇲 United States`
+#`🇺🇲 United States`
 ```
 warp -cfon -country US
 ```
