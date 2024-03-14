@@ -145,41 +145,35 @@ warp -cfon -country US
  <details>
   <summary>Settings</summary>
   
-##### Verbose Logging
-```
-warp -v
-```
-
-#### Bind Address
-```
-warp -b
-```
-
-#### Configuration File Path
-```
-warp -c
-```
-
-#### Endpoint
-```
-warp -e
-```
-
-#### License Key
-```
-warp -k
-```
-
 #### Warp on Warp
 ```
 warp -gool
 ```
-
 #### Warp on Psiphon
 ```
 warp -cfon
 ```
+#### Endpoint
+```
+warp -e 
+```
 #### Scanner
 ```
 warp -rtt
+```
+#### License Key
+```
+warp -k
+```
+##### Verbose Logging
+```
+warp -v
+```
+#### Bind Address
+```
+warp -b
+```
+#### Configuration File Path
+```
+warp -c
 ```
