@@ -1,7 +1,4 @@
 [Script](#Country)
-<details>
-  <summary>#Script</summary>
-  
 `CFWIP`
 ```
 bash <(curl -fsSL https://raw.githubusercontent.com/FarhadElahi/CF/main/CFWIP/install.sh)
@@ -22,9 +19,6 @@ wget https://raw.githubusercontent.com/FarhadElahi/CF/main/CFW%2B/w.py -O w.py &
 ```
 curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=never '"2606:4700:[0-9a-f:]+/128"|"private_key":"[0-9a-zA-Z\/+]+="|"reserved":\[[0-9]+(,[0-9]+){2}\]'
 ```
- <details>
-  <summary>Country</summary>
-   
 - `-v` Enable verbose logging [./warp-plus-go]
 - `-b` Set the SOCKS bind address (default: 127.0.0.1:8086)
 - `-c` Path to the Warp configuration file
@@ -34,6 +28,8 @@ curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=neve
 - `-country` ISO 3166-1 alpha-2 country code for Psiphon.
 - `-cfon` Enable Psiphon over Warp.
 - `-rtt` scanner rtt threshold, default is 1000
+
+#Country
  <details>
   <summary>#Country</summary>
 
