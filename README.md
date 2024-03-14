@@ -36,9 +36,6 @@ curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=neve
 ```
 m -cfon -country AT
 ```
- <details>
-  <summary></summary>
-  
 🇧🇪 Belgium
 ```
 m -cfon -country BE
