@@ -25,14 +25,14 @@ curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=neve
   <summary>Country</summary>
    
 `-v` Enable verbose logging [./warp-plus-go]
-`-b` Set the SOCKS bind address (default: `127.0.0.1:8086`)
+`-b` Set the SOCKS bind address (default: 127.0.0.1:8086)
 `-c` Path to the Warp configuration file
 `-e` Specify the Warp endpoint IP
 `-k` Your Warp license key
 `-gool` enable warp in warp 
 `-country` ISO 3166-1 alpha-2 country code for Psiphon.
 `-cfon` Enable Psiphon over Warp.
-`-rtt` scanner rtt threshold, default is `1000`
+`-rtt` scanner rtt threshold, default is 1000
  <details>
   <summary>Country</summary>
 
