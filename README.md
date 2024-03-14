@@ -1,5 +1,6 @@
+[Script](#Script)
 <details>
-  <summary>Script</summary>
+  <summary>#Script</summary>
   
 `CFWIP`
 ```
@@ -31,7 +32,7 @@ curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=neve
 - `-k` Your Warp license key
 - `-gool` enable warp in warp 
 - `-country` ISO 3166-1 alpha-2 country code for Psiphon.
-- - `-cfon` Enable Psiphon over Warp.
+- `-cfon` Enable Psiphon over Warp.
 - `-rtt` scanner rtt threshold, default is 1000
  <details>
   <summary>Country</summary>
