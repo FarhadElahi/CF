@@ -120,42 +120,34 @@ warp -cfon -country NO
 ```
 warp -cfon -country PL
 ```
-___
 ### 🇷🇴 Romania
 ```
 warp -cfon -country RO
 ```
-___
 ### 🇷🇸 Serbia
 ```
 warp -cfon -country RS
 ```
-___
 ### 🇸🇪 Sweden
 ```
 warp -cfon -country SE
 ```
-___
 ### 🇸🇬 Singapore
 ```
 warp -cfon -country SG
 ```
-___
 ### 🇸🇰 Slovakia
 ```
 warp -cfon -country SK
 ```
-___
 ### 🇺🇦 Ukraine
 ```
 warp -cfon -country UA
 ```
-___
 ### 🇬🇧 United Kingdom
 ```
 warp -cfon -country GB
-```
-___ 
+``` 
 ### 🇺🇲 United States
 ```
 warp -cfon -country US
