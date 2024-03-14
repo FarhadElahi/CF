@@ -1,33 +1,33 @@
 # Settings
-#### Warp on Warp
+### Warp on Warp
 ```
 warp -gool
 ```
-#### Warp on Psiphon
+### Warp on Psiphon
 ```
 warp -cfon
 ```
-#### Endpoint
+### Endpoint
 ```
 warp -e 
 ```
-#### Scanner
+### Scanner
 ```
 warp -rtt
 ```
-#### License Key
+### License Key
 ```
 warp -k
 ```
-##### Verbose Logging
+#### Verbose Logging
 ```
 warp -v
 ```
-#### Bind Address
+### Bind Address
 ```
 warp -b
 ```
-#### Configuration File Path
+### Configuration File Path
 ```
 warp -c
 ```
