@@ -142,18 +142,17 @@ ___
 warp -cfon -country SK
 ```
 ___
-## 🇺🇦 Ukraine
+####### 🇺🇦 Ukraine
 ```
 warp -cfon -country UA
 ```
 ___
-## 🇬🇧 United Kingdom
+###### 🇬🇧 United Kingdom
 ```
 warp -cfon -country GB
 ```
 ___ 
-## 🇺🇲 United States
+###### 🇺🇲 United States
 ```
-___
 warp -cfon -country US
 ```
