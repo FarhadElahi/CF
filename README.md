@@ -1,4 +1,7 @@
-[Script](#Country)
+# Script
+<details>
+  <summary>➜</summary>
+  
 `CFWIP`
 ```
 bash <(curl -fsSL https://raw.githubusercontent.com/FarhadElahi/CF/main/CFWIP/install.sh)
