@@ -1,4 +1,4 @@
-[Script](#Script)
+[Script](#Country)
 <details>
   <summary>#Script</summary>
   
@@ -35,7 +35,7 @@ curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=neve
 - `-cfon` Enable Psiphon over Warp.
 - `-rtt` scanner rtt threshold, default is 1000
  <details>
-  <summary>Country</summary>
+  <summary>#Country</summary>
 
   🇦🇹 Austria
 ```
