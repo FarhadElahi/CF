@@ -72,11 +72,11 @@ m -cfon -country DK
 ```
 m -cfon -country EE
 ```
-🇪🇸 Spain
+### 🇪🇸 Spain
 ```
 warp -cfon -country ES
 ```
-🇫🇮 Finland
+### 🇫🇮 Finland
 ```
 warp -cfon -country FI
 ```
