@@ -29,7 +29,7 @@ curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=neve
 - `-cfon` Enable Psiphon over Warp.
 - `-rtt` scanner rtt threshold, default is 1000
 
-#Country
+## Country
  <details>
   <summary>#Country</summary>
 
