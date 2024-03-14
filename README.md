@@ -2,6 +2,7 @@
 ```
 bash <(curl -fsSL https://raw.githubusercontent.com/FarhadElahi/CF/main/CFWIP/install.sh)
 ```
+___
 `CFIP`
 ```
 curl https://raw.githubusercontent.com/FarhadElahi/CF/main/CFIP/cf.sh -o cf.sh && chmod +x cf.sh && ./cf.sh
