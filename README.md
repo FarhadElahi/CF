@@ -72,63 +72,63 @@ m -cfon -country DK
 ```
 m -cfon -country EE
 ```
-### 🇪🇸 Spain
+## 🇪🇸 Spain
 ```
 warp -cfon -country ES
 ```
-### 🇫🇮 Finland
+## 🇫🇮 Finland
 ```
 warp -cfon -country FI
 ```
-### 🇫🇷 France
+## 🇫🇷 France
 ```
 warp -cfon -country FR
 ```
-#### 🇭🇺 Hungary
+## 🇭🇺 Hungary
 ```
 warp -cfon -country HU
 ```
-#### 🇮🇪 Ireland
+## 🇮🇪 Ireland
 ```
 warp -cfon -country IE
 ```
-##### 🇮🇳 India
+## 🇮🇳 India
 ```
 warp -cfon -country IN
 ```
-##### 🇮🇹 Italy
+## 🇮🇹 Italy
 ```
 warp -cfon -country IT
 ```
-🇯🇵 Japan
+## 🇯🇵 Japan
 ```
 warp -cfon -country JP
 ```
-🇱🇻 Latvia
+## 🇱🇻 Latvia
 ```
 warp -cfon -country LV
 ```
-🇳🇱 Netherlands
+## 🇳🇱 Netherlands
 ```
 warp -cfon -country NL
 ```
-🇳🇴 Norway
+## 🇳🇴 Norway
 ```
 warp -cfon -country NO
 ```
-🇵🇱 Poland
+## 🇵🇱 Poland
 ```
 warp -cfon -country PL
 ```
-🇷🇴 Romania
+## 🇷🇴 Romania
 ```
 warp -cfon -country RO
 ```
-> 🇷🇸 Serbia
+## 🇷🇸 Serbia
 ```
 warp -cfon -country RS
 ```
-### 🇸🇪 Sweden
+## 🇸🇪 Sweden
 ```
 warp -cfon -country SE
 ```
@@ -136,7 +136,7 @@ warp -cfon -country SE
 ```
 warp -cfon -country SG
 ```
-# `🇸🇰 Slovakia`
+## `🇸🇰 Slovakia`
 ```
 warp -cfon -country SK
 ```
@@ -146,11 +146,13 @@ ___
 warp -cfon -country UA
 ```
 ___
-🇬🇧 `United Kingdom`
+## 🇬🇧 `United Kingdom`
 ```
 warp -cfon -country GB
 ```
-`🇺🇲 United States`
+___ 
+## `🇺🇲 United States`
 ```
+---
 warp -cfon -country US
 ```
