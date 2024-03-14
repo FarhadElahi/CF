@@ -18,16 +18,6 @@ wget https://raw.githubusercontent.com/FarhadElahi/CF/main/CFW%2B/w.py -O w.py &
 ```
 curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=never '"2606:4700:[0-9a-f:]+/128"|"private_key":"[0-9a-zA-Z\/+]+="|"reserved":\[[0-9]+(,[0-9]+){2}\]'
 ```
-- `-v` Enable verbose logging [./warp-plus-go]
-- `-b` Set the SOCKS bind address (default: 127.0.0.1:8086)
-- `-c` Path to the Warp configuration file
-- `-e` Specify the Warp endpoint IP
-- `-k` Your Warp license key
-- `-gool` enable warp in warp 
-- `-country` ISO 3166-1 alpha-2 country code for Psiphon.
-- `-cfon` Enable Psiphon over Warp.
-- `-rtt` scanner rtt threshold, default is 1000
-
 # Country
  <details>
   <summary></summary>
@@ -151,4 +141,45 @@ warp -cfon -country GB
 ### 🇺🇲 United States
 ```
 warp -cfon -country US
+```
+ <details>
+  <summary>Settings</summary>
+  
+##### Verbose Logging
+```
+warp -v
+```
+
+#### Bind Address
+```
+warp -b
+```
+
+#### Configuration File Path
+```
+warp -c
+```
+
+#### Endpoint
+```
+warp -e
+```
+
+#### License Key
+```
+warp -k
+```
+
+#### Warp on Warp
+```
+warp -gool
+```
+
+#### Warp on Psiphon
+```
+warp -cfon
+```
+#### Scanner
+```
+warp -rtt
 ```
