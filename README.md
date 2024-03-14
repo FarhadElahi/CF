@@ -20,7 +20,7 @@ curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=neve
 ```
 # CFW Code
  <details>
-  <summary>       Country</summary>
+  <summary>.      Country</summary>
 
 🇦🇹 Austria
 ```
