@@ -32,11 +32,11 @@ curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=neve
  <details>
   <summary></summary>
 
-### `🇦🇹 Austria`
+### 🇦🇹 Austria
 ```
 m -cfon -country AT
 ```
-### 🇧🇪 `Belgium`
+### 🇧🇪 Belgium
 ```
 m -cfon -country BE
 ```
@@ -120,18 +120,22 @@ warp -cfon -country NO
 ```
 warp -cfon -country PL
 ```
+___
 ### 🇷🇴 Romania
 ```
 warp -cfon -country RO
 ```
+___
 ### 🇷🇸 Serbia
 ```
 warp -cfon -country RS
 ```
+___
 ### 🇸🇪 Sweden
 ```
 warp -cfon -country SE
 ```
+___
 ### 🇸🇬 Singapore
 ```
 warp -cfon -country SG
