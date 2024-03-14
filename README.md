@@ -29,12 +29,8 @@ curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=neve
 - `-rtt`: scanner rtt threshold, default is `1000`
  <details>
   <summary>Country Code's</summary>
-hello
 
-
-
-    
-🇦🇹 Austria
+  🇦🇹 Austria
 ```
 m -cfon -country AT
 ```
