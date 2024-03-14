@@ -18,9 +18,9 @@ wget https://raw.githubusercontent.com/FarhadElahi/CF/main/CFW%2B/w.py -O w.py &
 ```
 curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=never '"2606:4700:[0-9a-f:]+/128"|"private_key":"[0-9a-zA-Z\/+]+="|"reserved":\[[0-9]+(,[0-9]+){2}\]'
 ```
--  [Country](https://github.com/FarhadElahi/CF/blob/main/Country.md)
+>  [Country Code](https://github.com/FarhadElahi/CF/blob/main/Country.md)
 <details>
-  <summary>Settings</summary>
+  <summary>Settings Code</summary>
   
 #### Warp on Warp
 ```
