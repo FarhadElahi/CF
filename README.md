@@ -1,5 +1,6 @@
 <details>
   <summary>Script</summary>
+  
 `CFWIP`
 ```
 bash <(curl -fsSL https://raw.githubusercontent.com/FarhadElahi/CF/main/CFWIP/install.sh)
