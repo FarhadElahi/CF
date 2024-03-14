@@ -21,6 +21,7 @@ wget https://raw.githubusercontent.com/FarhadElahi/CF/main/CFW%2B/w.py -O w.py &
 ```
  <details>
   <summary>Settings</summary>
+
 curl -sL "https://api.zeroteam.top/warp?format=sing-box" | grep -Eo --color=never '"2606:4700:[0-9a-f:]+/128"|"private_key":"[0-9a-zA-Z\/+]+="|"reserved":\[[0-9]+(,[0-9]+){2}\]'
 ```
 `-v`: Enable verbose logging [./warp-plus-go]
@@ -127,15 +128,15 @@ warp -cfon -country PL
 ```
 warp -cfon -country RO
 ```
-🇷🇸 Serbia
+> 🇷🇸 Serbia
 ```
 warp -cfon -country RS
 ```
-🇸🇪 Sweden
+### 🇸🇪 Sweden
 ```
 warp -cfon -country SE
 ```
-🇸🇬 Singapore
+## 🇸🇬 Singapore
 ```
 warp -cfon -country SG
 ```
