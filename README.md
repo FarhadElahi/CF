@@ -2,8 +2,9 @@
 ## [Settings](https://github.com/FarhadElahi/CF/blob/main/Info/Settings.md)
 ## [Country](https://github.com/FarhadElahi/CF/blob/main/Info/Country.md)
 
+### Info
 <details>
-  <summary>Info</summary>
+  <summary></summary>
   
 #### Script
 [<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Script.png" width="80">](https://github.com/FarhadElahi/CF/blob/main/Info/Script.md)
