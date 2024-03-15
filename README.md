@@ -1,4 +1,10 @@
+# Info
 <details>
-  <summary>Info</summary>
+  <summary>Expend</summary>
   
-[<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Script.png" width="70">](https://github.com/FarhadElahi/CF/blob/main/Info/Script.md)════════[<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Settings.png" width="70">](https://github.com/FarhadElahi/CF/blob/main/Info/Settings.md)════════[<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Country.png" width="70">](https://github.com/FarhadElahi/CF/blob/main/Info/Country.md)
+### Script
+[<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Script.png" width="80">](https://github.com/FarhadElahi/CF/blob/main/Info/Script.md)
+### Settings
+[<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Settings.png" width="80">](https://github.com/FarhadElahi/CF/blob/main/Info/Settings.md)
+### Country
+[<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Country.png" width="80">](https://github.com/FarhadElahi/CF/blob/main/Info/Country.md)
