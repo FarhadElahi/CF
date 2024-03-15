@@ -1,9 +1,9 @@
 <details>
   <summary>Info</summary>
   
-#### Script
+### Script
 [<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Script.png" width="80">](https://github.com/FarhadElahi/CF/blob/main/Info/Script.md)
-#### Settings
+### Settings
 [<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Settings.png" width="80">](https://github.com/FarhadElahi/CF/blob/main/Info/Settings.md)
-#### Country
+### Country
 [<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Country.png" width="80">](https://github.com/FarhadElahi/CF/blob/main/Info/Country.md)
