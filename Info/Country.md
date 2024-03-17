@@ -1,5 +1,5 @@
 # Country
-<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Country.png" width="200" height="100">
+<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Country.png" width="80">
 
 ### 🇦🇹 Austria
 ```
