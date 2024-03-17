@@ -1,4 +1,6 @@
 # Script
+<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Script.png" width="80"> ****c****
+___
 `CFWIP`
 ```
 bash <(curl -fsSL https://raw.githubusercontent.com/FarhadElahi/CF/main/CFWIP/install.sh)
