@@ -1,4 +1,7 @@
 # Settings
+<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Settings.png" width="80">
+
+___
 #### Warp on Warp
 ```
 warp -gool
