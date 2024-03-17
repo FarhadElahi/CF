@@ -1,6 +1,6 @@
-<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Country.png" width="80">
-
 # Country
+<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Country.png" width="80">
+______
 ### 🇦🇹 Austria
 ```
 m -cfon -country AT
