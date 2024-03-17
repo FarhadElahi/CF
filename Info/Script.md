@@ -1,4 +1,5 @@
-# Script__________<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Script.png" width="80">
+# Script
+<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Script.png" width="80">
 
 ___
 `CFWIP`
