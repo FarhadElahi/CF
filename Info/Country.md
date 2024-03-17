@@ -1,5 +1,5 @@
 # Country
-![](https://github.com/FarhadElahi/CF/blob/main/Info/Country.png [width="80">])
+![](https://github.com/FarhadElahi/CF/blob/main/Info/Country.png) width="80">
 
 ### 🇦🇹 Austria
 ```
