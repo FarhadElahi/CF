@@ -1,9 +1,9 @@
 # Country
-🇦🇹 Austria
+### 🇦🇹 Austria
 ```
 m -cfon -country AT
 ```
-🇧🇪 Belgium
+### 🇧🇪 Belgium
 ```
 m -cfon -country BE
 ```
