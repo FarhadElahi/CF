@@ -1,12 +1,4 @@
-# Country
-<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Country.png" width="80"> hello
-
-<figure>
-    <img src="https://github.com/FarhadElahi/CF/blob/main/Info/Country.png"
-         alt="Albuquerque, New Mexico">
-    <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
-</figure>
-
+<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Country.png" width="80">**Country**
 ### 🇦🇹 Austria
 ```
 m -cfon -country AT
