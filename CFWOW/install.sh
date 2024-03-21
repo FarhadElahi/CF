@@ -268,15 +268,15 @@ mv output.json output_$(date +"%Y%m%d_%H%M%S").json
 }
 menu(){
 clear
-echo "CloudFlare"
-echo "WARP ON WARP"
+echo "       CloudFlare"
+echo "       WARP ON WARP"
 echo "------------------------------"
-echo "1.Auto Scan (Android / Linux)"
+echo "1.Auto Scan (Android/Linux)"
 echo "2.Import Custom IPs (Windows)"
 echo ""
-read -r -p "   Please Choose Option: " option
+read -r -p "   Choose Option: " option
 if [ "$option" = "1" ]; then
-	echo "   How Many Configs Do You Want?"
+	echo "   Enter Numbers of Configs You Want?"
 read -r -p "Number of required configurations(Suggested 5 or 10):  " number_of_configs
 cfwarpIP
 endipv4
