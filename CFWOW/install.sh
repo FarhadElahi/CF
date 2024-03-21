@@ -271,17 +271,17 @@ clear
 echo "       CloudFlare"
 echo "       WARP ON WARP"
 echo "------------------------------"
-echo "1.Auto Scan (Android/Linux)"
-echo "2.Import Custom IPs (Windows)"
+echo "1.Auto Scan"
+echo "2.Import Custom IPs"
 echo ""
 read -r -p "   Choose Option: " option
 if [ "$option" = "1" ]; then
-read -r -p "Enter Numbers of Configs You Want (Suggested 5 or 10):" number_of_configs
+read -r -p "Enter Numbers of Configs: " number_of_configs
 cfwarpIP
 endipv4
 endipresult $number_of_configs
 elif [ "$option" = "2" ]; then
-	read -r -p "Enter Numbers of Configs You Want (Suggested 5 or 10):" number_of_configs
+	read -r -p "Enter Numbers of Configs: " number_of_configs
 	process_result_csv $number_of_configs
 else
 	echo "Invalid option"
