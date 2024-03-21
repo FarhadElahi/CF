@@ -42,7 +42,7 @@ esac
 cfwarpIP(){
 echo "download warp endpoint file base on your CPU architecture"
 if [[ -n $cpu ]]; then
-curl -L -o warpendpoint -# --retry 2 githubusercontent.com/FarhadElahi/CF/main/CFWIP/$cpu
+curl -L -o warpendpoint -# --retry 2 https://raw.githubusercontent.com/FarhadElahi/CF/main/CFWIP/$cpu
 fi
 }
 
