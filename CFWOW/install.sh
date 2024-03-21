@@ -276,8 +276,7 @@ echo "2.Import Custom IPs (Windows)"
 echo ""
 read -r -p "   Choose Option: " option
 if [ "$option" = "1" ]; then
-	echo "   Enter Numbers of Configs You Want?"
-read -r -p "Number of required configurations(Suggested 5 or 10):  " number_of_configs
+read -r -p "Enter Numbers of Configs You Want (Suggested 5 or 10):  " number_of_configs
 cfwarpIP
 endipv4
 endipresult $number_of_configs
