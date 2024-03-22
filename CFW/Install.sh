@@ -229,7 +229,7 @@ case "$choice" in
         echo -e "${cyan}Exiting..."
         exit
         ;;
-    )
+    *)
         echo "Invalid choice. Please select a valid option."
         ;;
 esac
