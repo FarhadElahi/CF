@@ -12,7 +12,7 @@ curl https://raw.githubusercontent.com/FarhadElahi/CF/main/CFIP/cf.sh -o cf.sh &
 ```
 `CFW`
 ```
-bash <(curl -fsSL https://raw.githubusercontent.com/FarhadElahi/CF/main/CFW/termux.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/FarhadElahi/CF/main/CFW/Install.sh)
 ```
 `CFW+`
 ```
