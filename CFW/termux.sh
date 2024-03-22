@@ -192,7 +192,7 @@ read -p "Please enter your selection [0-5]:" choice
 case "$choice" in
    1)
         install
-        warp
+        warp-plus
         ;;
     2)
         install_arm
