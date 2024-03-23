@@ -1,6 +1,6 @@
 **Info**
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2349F707&size=30&lines=☣️+termux-extra-key+☣️)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2349F707&size=30&lines=☣️+CloudFlare WARP++☣️)
 
 
 ### [Script](https://github.com/FarhadElahi/CF/blob/main/Info/Script.md)
