@@ -1,7 +1,6 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%cfce08&size=30&lines=🔸+CloudFlare+🔸)
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7A830&random=false&width=435&lines=The+five+boxing+wizards+jump+quickly)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=50&pause=1000&color=F78D24&random=false&width=435&lines=CloudFlare)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=1000&size=100&pause=1000&color=F7AF26&random=false&width=435&lines=WARP)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=1000&size=300&pause=1000&color=000DF7&random=false&width=435&lines=_________________________________)](https://git.io/typing-svg)
 **`Info`**
 ### [Script](https://github.com/FarhadElahi/CF/blob/main/Info/Script.md)
 [<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Script.png" width="80">](https://github.com/FarhadElahi/CF/blob/main/Info/Script.md)
