@@ -1,7 +1,6 @@
 **Info**
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2349F707&size=30&lines=☣️+CloudFlare WARP+☣️)
-
+![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2349F707&size=30&lines=☣️+hello+☣️)
 
 ### [Script](https://github.com/FarhadElahi/CF/blob/main/Info/Script.md)
 [<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Script.png" width="80">](https://github.com/FarhadElahi/CF/blob/main/Info/Script.md)
