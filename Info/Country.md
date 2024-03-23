@@ -1,12 +1,12 @@
 # Country
-<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Country.png" width="80">
 
+<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Country.png" width="80">
 ___
 ### 🇦🇹 Austria
 ```
 ./warp-plus --cfon --country AT
 ```
-### 🇧🇪 Belgiu./warp-plus
+### 🇧🇪 Belgium
 ```
 ./warp-plus --cfon --country BE
 ```
@@ -30,11 +30,11 @@ ___
 ```
 ./warp-plus --cfon --country CZ
 ```
-### 🇩🇪 Ger./warp-plusany
+### 🇩🇪 Germany
 ```
 ./warp-plus --cfon --country DE
 ```
-### 🇩🇰 Den./warp-plusark
+### 🇩🇰 Denmark
 ```
 ./warp-plus --cfon --country DK
 ```
@@ -90,7 +90,7 @@ warp --cfon --country NO
 ```
 warp --cfon --country PL
 ```
-### 🇷🇴 Ro./warp-plusania
+### 🇷🇴 Romania
 ```
 warp --cfon --country RO
 ```
@@ -114,7 +114,7 @@ warp --cfon --country SK
 ```
 warp --cfon --country UA
 ```
-### 🇬🇧 United Kingdo./warp-plus
+### 🇬🇧 United Kingdom
 ```
 warp --cfon --country GB
 ``` 
