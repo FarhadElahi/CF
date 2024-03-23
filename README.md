@@ -2,7 +2,7 @@
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%80FF00&size=30&lines=☣️+termux-extra-key+☣️)
 
-<font color="green"> Some green text </font>
+<code style="color : gold">text</code>
 
 **`Info`**
 ### [Script](https://github.com/FarhadElahi/CF/blob/main/Info/Script.md)
