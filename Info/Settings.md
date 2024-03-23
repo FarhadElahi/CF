@@ -38,8 +38,9 @@ ___
 ```
 ./warp-plus -c
 ```
-**<details>
-  <summary>More Info</summary>**
+# <details>
+  <summary>More Info</summary>
+  
 ```
   -4                      only use IPv4 for random warp endpoint
   -6                      only use IPv6 for random warp endpoint
