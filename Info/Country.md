@@ -4,43 +4,43 @@
 ___
 ### 🇦🇹 Austria
 ```
-././warp-plus-plus --cfon --country AT
+./warp-plus --cfon --country AT
 ```
 ### 🇧🇪 Belgium
 ```
-././warp-plus-plus --cfon --country BE
+./warp-plus --cfon --country BE
 ```
 ### 🇧🇬 Bulgaria
 ```
-././warp-plus-plus --cfon --country BG
+./warp-plus --cfon --country BG
 ```
 ### 🇧🇷 Brazil
 ```
-././warp-plus-plus --cfon --country BR
+./warp-plus --cfon --country BR
 ```
 ### 🇨🇦 Canada
 ```
-././warp-plus-plus --cfon --country CA
+./warp-plus --cfon --country CA
 ```
 ### 🇨🇭 Switzerland
 ```
-././warp-plus-plus --cfon --country CH
+./warp-plus --cfon --country CH
 ```
 ### 🇨🇿 Czech Republic
 ```
-././warp-plus-plus --cfon --country CZ
+./warp-plus --cfon --country CZ
 ```
 ### 🇩🇪 Germany
 ```
-././warp-plus-plus --cfon --country DE
+./warp-plus --cfon --country DE
 ```
 ### 🇩🇰 Denmark
 ```
-././warp-plus-plus --cfon --country DK
+./warp-plus --cfon --country DK
 ```
 ### 🇪🇪 Estonia
 ```
-././warp-plus-plus --cfon --country EE
+./warp-plus --cfon --country EE
 ```
 ### 🇪🇸 Spain
 ```
@@ -90,7 +90,7 @@ ___
 ```
 ./warp-plus --cfon --country PL
 ```
-### 🇷🇴 Romania
+### 🇷🇴 Romina
 ```
 ./warp-plus --cfon --country RO
 ```
