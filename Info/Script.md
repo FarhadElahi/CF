@@ -14,6 +14,10 @@ curl https://raw.githubusercontent.com/FarhadElahi/CF/main/CFIP/cf.sh -o cf.sh &
 ```
 wget https://raw.githubusercontent.com/FarhadElahi/CF/main/CFW%2B/w.py -O w.py && ls &&chmod +x w.py && python w.py
 ```
+`CFW+ T`
+```
+wget https://raw.githubusercontent.com/FarhadElahi/CF/main/CFW%2B/wa.py -O wa.py && ls &&chmod +x wa.py && python wa.py
+```
 `CFWOW`
 ```
 curl -sSL https://raw.githubusercontent.com/FarhadElahi/CF/main/CFWOW/install.sh -o install.sh && chmod +x install.sh && bash install.sh
