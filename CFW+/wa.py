@@ -21,9 +21,9 @@ for file_path in file_paths:
 else:
     default_id = "Not set"
     
-print ("    ======= Warp to Warp plus ======")
+print ("    ======= CloudFlare WARP+ ======")
 print("")
-referrer = input(f"[#] ENTER WARP+ ID  [Your id: {default_id}] : ") or default_id
+referrer = input(f"[#] Enter Your ID  [Your ID: {default_id}] : ") or default_id
 
 def genString(stringLength):
 	try:
