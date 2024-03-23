@@ -13,7 +13,7 @@ print ('------------------------\n')
 print ("-----------------")
 print("CloudFlare WARP+")
 print ("-----------------")
-no = int(input("Type GB Number : "))
+no = int(input("Enter GB: "))
 referrer = input("Enter The WARP+ ID : ")
 def genString(stringLength):
 	try:
