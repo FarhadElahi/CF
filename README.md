@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%FF8700&size=30&lines=🔸+CloudFlare+🔸)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%d37600&size=30&lines=🔸+CloudFlare+🔸)
 **`Info`**
 ### [Script](https://github.com/FarhadElahi/CF/blob/main/Info/Script.md)
 [<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Script.png" width="80">](https://github.com/FarhadElahi/CF/blob/main/Info/Script.md)
