@@ -211,9 +211,12 @@ echo -e "${yellow}                       EndIP${rest}"
 echo "--------------------------------------------"
 echo""
 echo -e "${purple}1.${green}IPV4${rest}"
+echo -e
 echo -e "${purple}2.${green}IPV6${rest}"
+echo -e 
 echo -e "${purple}0.${green}Exit${rest}"
-read -p "Enter: " menu
+echo -e
+read -p "Enter:" menu
 if [ "$menu" == "1" ];then
 cfwarpIP && endipv4 && endipresult && Endip_v4
 elif [ "$menu" == "2" ];then
