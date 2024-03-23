@@ -8,10 +8,14 @@ import os
 import sys
 os.system("title CloudFlare WARP+")
 os.system('cls' if os.name == 'nt' else 'clear')
-print('---------------------------\n')
-print ('------------------------\n')
-print ("-----------------")
-print("CloudFlare WARP+")
+print('
+ ____      ____  _       _______     _______           
+|_  _|    |_  _|/ \     |_   __ \   |_   __ \   .-.    
+  \ \  /\  / / / _ \      | |__) |    | |__) |__| |__  
+   \ \/  \/ / / ___ \     |  __ /     |  ___/|__   __| 
+    \  /\  /_/ /   \ \_  _| |  \ \_  _| |_      | |    
+     \/  \/|____| |____||____| |___||_____|     '-'    
+                                                       \n')
 print ("-----------------")
 no = int(input("Type GB Number : "))
 referrer = input("Enter The WARP+ ID : ")
