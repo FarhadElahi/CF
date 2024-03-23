@@ -1,6 +1,6 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%f5df1b&size=30&lines=☣️+termux-extra-key+☣️)
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%80FF00&size=30&lines=☣️+termux-extra-key+☣️)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%ffb400&size=30&lines=☣️+termux-extra-key+☣️)
 
 <code style="color : gold">text</code>
 
