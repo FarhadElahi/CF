@@ -1,124 +1,124 @@
 # Country
-<img src="https://github.com/FarhadElahi/CF/blob/main/Info/Country.png" width="80">
+<i./warp-plusg src="https://github.co./warp-plus/FarhadElahi/CF/blob/./warp-plusain/Info/Country.png" width="80">
 
 ___
 ### 🇦🇹 Austria
 ```
-m -cfon -country AT
+./warp-plus --cfon --country AT
 ```
-### 🇧🇪 Belgium
+### 🇧🇪 Belgiu./warp-plus
 ```
-m -cfon -country BE
+./warp-plus --cfon --country BE
 ```
 ### 🇧🇬 Bulgaria
 ```
-m -cfon -country BG
+./warp-plus --cfon --country BG
 ```
 ### 🇧🇷 Brazil
 ```
-m -cfon -country BR
+./warp-plus --cfon --country BR
 ```
 ### 🇨🇦 Canada
 ```
-m -cfon -country CA
+./warp-plus --cfon --country CA
 ```
 ### 🇨🇭 Switzerland
 ```
-m -cfon -country CH
+./warp-plus --cfon --country CH
 ```
 ### 🇨🇿 Czech Republic
 ```
-m -cfon -country CZ
+./warp-plus --cfon --country CZ
 ```
-### 🇩🇪 Germany
+### 🇩🇪 Ger./warp-plusany
 ```
-m -cfon -country DE
+./warp-plus --cfon --country DE
 ```
-### 🇩🇰 Denmark
+### 🇩🇰 Den./warp-plusark
 ```
-m -cfon -country DK
+./warp-plus --cfon --country DK
 ```
 ### 🇪🇪 Estonia
 ```
-m -cfon -country EE
+./warp-plus --cfon --country EE
 ```
 ### 🇪🇸 Spain
 ```
-warp -cfon -country ES
+warp --cfon --country ES
 ```
 ### 🇫🇮 Finland
 ```
-warp -cfon -country FI
+warp --cfon --country FI
 ```
 ### 🇫🇷 France
 ```
-warp -cfon -country FR
+warp --cfon --country FR
 ```
 ### 🇭🇺 Hungary
 ```
-warp -cfon -country HU
+warp --cfon --country HU
 ```
 ### 🇮🇪 Ireland
 ```
-warp -cfon -country IE
+warp --cfon --country IE
 ```
 ### 🇮🇳 India
 ```
-warp -cfon -country IN
+warp --cfon --country IN
 ```
 ### 🇮🇹 Italy
 ```
-warp -cfon -country IT
+warp --cfon --country IT
 ```
 ### 🇯🇵 Japan
 ```
-warp -cfon -country JP
+warp --cfon --country JP
 ```
 ### 🇱🇻 Latvia
 ```
-warp -cfon -country LV
+warp --cfon --country LV
 ```
 ### 🇳🇱 Netherlands
 ```
-warp -cfon -country NL
+warp --cfon --country NL
 ```
 ### 🇳🇴 Norway
 ```
-warp -cfon -country NO
+warp --cfon --country NO
 ```
 ### 🇵🇱 Poland
 ```
-warp -cfon -country PL
+warp --cfon --country PL
 ```
-### 🇷🇴 Romania
+### 🇷🇴 Ro./warp-plusania
 ```
-warp -cfon -country RO
+warp --cfon --country RO
 ```
 ### 🇷🇸 Serbia
 ```
-warp -cfon -country RS
+warp --cfon --country RS
 ```
 ### 🇸🇪 Sweden
 ```
-warp -cfon -country SE
+warp --cfon --country SE
 ```
 ### 🇸🇬 Singapore
 ```
-warp -cfon -country SG
+warp --cfon --country SG
 ```
 ### 🇸🇰 Slovakia
 ```
-warp -cfon -country SK
+warp --cfon --country SK
 ```
 ### 🇺🇦 Ukraine
 ```
-warp -cfon -country UA
+warp --cfon --country UA
 ```
-### 🇬🇧 United Kingdom
+### 🇬🇧 United Kingdo./warp-plus
 ```
-warp -cfon -country GB
+warp --cfon --country GB
 ``` 
 ### 🇺🇲 United States
 ```
-warp -cfon -country US
+warp --cfon --country US
 ```
