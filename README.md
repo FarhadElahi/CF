@@ -2,8 +2,6 @@
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%f5df1b&size=30&lines=☣️+termux-extra-key+☣️)
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%red&size=30&lines=🔸️+termux-extra-key+🔸️)
-
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%003AFF&size=30&lines=🔸️+termux-extra-key+🔸️)
 
 **`Info`**
