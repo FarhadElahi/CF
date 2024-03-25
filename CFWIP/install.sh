@@ -219,9 +219,9 @@ echo -e "  ${yellow}  ╰─━━━━─╯"
 echo -e "  ${yellow}  ╭─━━━━─╮⁠"
 echo -e "  ${yellow}3.  Exit   "
 echo -e "  ${yellow}  ╰─━━━━─╯"
-echo -e"╭─────╮⁠"
-read -p "Enter:" menu
-echo -e"╰─────╯"
+echo -e "╭─────╮⁠"
+read -p " Enter:" menu
+echo -e "╰─────╯"
 if [ "$menu" == "1" ];then
 cfwarpIP && endipv4 && endipresult && Endip_v4
 elif [ "$menu" == "2" ];then
