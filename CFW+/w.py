@@ -8,11 +8,10 @@ import os
 import sys
 os.system("title CloudFlare WARP+")
 os.system('cls' if os.name == 'nt' else 'clear')
-print('---------------------------\n')
-print ('------------------------\n')
-print ("-----------------")
-print("CloudFlare WARP+")
-print ("-----------------")
+print("   ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠")
+print("                CloudFlare WARP+                  ")
+print("   ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯")
+print("")
 no = int(input("Enter GB: "))
 referrer = input("Enter The WARP+ ID : ")
 def genString(stringLength):
