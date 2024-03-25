@@ -32,7 +32,7 @@ esac
 cfwarpIP(){
 
 if [[ ! -f "warpendpoint" ]]; then
-echo "Download warp preferred program"
+echo "Downloading Preferred Program"
 if [[ -n $cpu ]]; then
 curl -L -o warpendpoint -# --retry 2 https://raw.githubusercontent.com/FarhadElahi/CF/main/CFWIP/$cpu
 fi
@@ -192,9 +192,9 @@ echo -e "${green}Results Saved in result.csv"
 echo""
 echo -e "${purple}╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮"
 if [ "$Endip_v4" ]; then
-  echo -e "${yellow} Best IPv4 ───► ${blue}$Endip_v4"
+  echo -e "${yblue} Best IPv4 ───► ${yellow}$Endip_v4"
 elif [ "$Endip_v6" ]; then
-  echo -e "${yellow} Best IPv6 ───► ${blue}$Endip_v6"
+  echo -e "${blue} Best IPv6 ───► ${yellow}$Endip_v6"
 else
   echo -e "${red} No Valid IP Addresses Found"
 fi
