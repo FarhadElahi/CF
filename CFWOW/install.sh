@@ -257,21 +257,21 @@ full_json='
 echo "$full_json" > output.json
 echo ""
 echo "${GREEN}Upload Files to Get Link${RESET}"
-echo "╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⁠"
 echo ""
 echo "Your link:"
 curl https://bashupload.com/ -T output.json | sed -e 's#wget#Your Link#' -e 's#https://bashupload.com/\(.*\)#https://bashupload.com/\1?download=1#'
-echo "╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
 mv output.json output_$(date +"%Y%m%d_%H%M%S").json
 
 }
 menu(){
 clear
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⁠"
+echo "╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠⁠"
 echo "        CloudFlare WARP+"
 echo "                        ON WARP"
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
 echo "1.Auto Scan"
 echo ""
 echo "2.Import Custom IP"
