@@ -205,13 +205,12 @@ exit
 }
 
 clear
-echo -e "${green}   ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠"
-echo -e "${green}          CloudFlare WARP"
-echo -e "${yellow}                         EndIP"
-echo -e "${yellow}   ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
+echo -e "${green}     ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠"
+echo -e "${green}          CloudFlare WARP WARP+"
+echo -e "${yellow}    ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
 echo""
 echo -e "  ${yellow}  ╭─━━━━─╮⁠"
-echo -e "  ${yellow}1.  IPV4   "
+echo -e "  ${yellow}1.  ${green}IPV4   "
 echo -e "  ${yellow}  ╰─━━━━─╯"
 echo -e "  ${yellow}  ╭─━━━━─╮⁠"
 echo -e "  ${yellow}2.  IPV6   "
