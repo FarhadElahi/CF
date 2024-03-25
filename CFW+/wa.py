@@ -20,11 +20,12 @@ for file_path in file_paths:
         break
 else:
     default_id = "Not set"
+    
 print("   ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠")
-print("                 CloudFlare WARP+                          ")
+print("                CloudFlare WARP+                  ")
 print("   ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯")
 print("")
-referrer = input(f"[•] Enter Your ID                                     [Your ID: {default_id} ]:") or default_id
+referrer = input(f"[#] Enter Your ID                                     [Your ID: {default_id} ]:") or default_id
 
 def genString(stringLength):
 	try:
@@ -75,16 +76,18 @@ while True:
 		g = g + 1
 		os.system('cls' if os.name == 'nt' else 'clear')
 		print("")
-		print(" WARP-PLUS-CLOUDFLARE ")
+		print("   ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠")
+                print("                CloudFlare WARP+                  ")
+                print("   ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯")
 		print("")
-		animation = ["[â– â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡] 10%","[â– â– â–¡â–¡â–¡â–¡â–¡â–¡â–¡â–¡] 20%", "[â– â– â– â–¡â–¡â–¡â–¡â–¡â–¡â–¡] 30%", "[â– â– â– â– â–¡â–¡â–¡â–¡â–¡â–¡] 40%", "[â– â– â– â– â– â–¡â–¡â–¡â–¡â–¡] 50%", "[â– â– â– â– â– â– â–¡â–¡â–¡â–¡] 60%", "[â– â– â– â– â– â– â– â–¡â–¡â–¡] 70%", "[â– â– â– â– â– â– â– â– â–¡â–¡] 80%", "[â– â– â– â– â– â– â– â– â– â–¡] 90%", "[â– â– â– â– â– â– â– â– â– â– ] 100%"] 
+		animation = ["[■□□□□□□□□□] 10%","[■■□□□□□□□□] 20%", "[■■■□□□□□□□] 30%", "[■■■■□□□□□□] 40%", "[■■■■■□□□□□] 50%", "[■■■■■■□□□□] 60%", "[■■■■■■■□□□] 70%", "[■■■■■■■■□□] 80%", "[■■■■■■■■■□] 90%", "[■■■■■■■■■■] 100%"] 
 		for i in range(len(animation)):
 			time.sleep(0.4)
 			sys.stdout.write("\r[+] Preparing... " + animation[i % len(animation)])
 			sys.stdout.flush()
 		print(f"\n[-] WORK ON ID: {referrer}")    
 		print(f"[:)] {g} GB HAS BEEN SUCCESSFULLY ENTERED INTO YOUR ACCOUNT.")
-		print(f"[•] Total: {g} Good {b} Bad")
+		print(f"[#] Total: {g} Good {b} Bad")
 		print("[*] AFTER 20 SECONDS A NEW REQUEST WILL BE SENT.")
 		print(f" Please wait 20 seconds...")
 		time.sleep(20)
@@ -95,4 +98,4 @@ while True:
 		print("WARP-PLUS-CLOUDFLARE ")
 		print("")
 		print("[:(] Error when connecting to server.")
-		print(f"[•] Total: {g} Good {b} Bad")
+		print(f"[#] Total: {g} Good {b} Bad")
