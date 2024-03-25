@@ -24,8 +24,8 @@ else:
 print("    ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠")
 print("                 CloudFlare WARP+                  ")
 print("    ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯")
-print("               ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮")
-referrer = input(f"[#] Enter Your ID                                   [Your ID: {default_id} ]:") or default_id
+print("      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+referrer = input(f"[#] Enter Your ID                                     [Your ID: {default_id} ]:") or default_id
 
 def genString(stringLength):
 	try:
