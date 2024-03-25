@@ -190,25 +190,25 @@ Endip_v6=$(cat result.csv | grep -oE "\[.*\]:[0-9]+" | head -n 1)
 echo""
 echo -e "${green}Results Saved in result.csv"
 echo""
-echo -e "${yellow}╭─${purple}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${yellow}─╮"
+echo -e "${purple}╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮"
 if [ "$Endip_v4" ]; then
-  echo -e "${yellow} Best IPv4 ───► ${green}$Endip_v4"
+  echo -e "${yellow} Best IPv4 ───► ${rest}$Endip_v4"
 elif [ "$Endip_v6" ]; then
-  echo -e "${yellow} Best IPv6 ───► ${green}$Endip_v6"
+  echo -e "${yellow} Best IPv6 ───► ${rest}$Endip_v6"
 else
   echo -e "${red} No Valid IP Addresses Found"
 fi
-echo -e "${yellow}╰─${purple}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${yellow}─╯"
+echo -e "${purple}╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
 rm warpendpoint
 rm -rf ip.txt
 exit
 }
 
 clear
-echo -e "${cyan}   ╭─${#00FFFF}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${cyan}─╮⁠"
+echo -e "${green}   ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠"
 echo -e "${green}          CloudFlare WARP"
 echo -e "${yellow}                         EndIP"
-echo -e "${cyan}   ╰─${yellow}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${cyan}─╯"
+echo -e "${yellow}   ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
 echo""
 echo -e "${cyan}1.${green}IPV4"
 echo -e
