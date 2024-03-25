@@ -11,7 +11,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 print("   ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠")
 print("                CloudFlare WARP+                  ")
 print("   ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯")
-print("")
+print("     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 no = int(input("Enter GB: "))
 referrer = input("Enter The WARP+ ID : ")
 def genString(stringLength):
