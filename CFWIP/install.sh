@@ -208,16 +208,16 @@ clear
 echo -e "${green}    ╭─━━━━━━━━━━━━━━━━━━━━━─╮⁠"
 echo -e "${yellow}      CloudFlare WARP WARP+"
 echo -e "${green}    ╰─━━━━━━━━━━━━━━━━━━━━━─╯"
-echo -e "  ${yellow}  ╭━━━━╮⁠"
+echo -e "  ${yellow}  ╭━━━━━╮⁠"
 echo -e "  ${cyan}1.  ${green}IPV4   "
-echo -e "  ${yellow}  ╰━━━━╯"
+echo -e "  ${yellow}  ╰━━━━━╯"
 echo -e "  ${yellow}  ╭─━━━━─╮⁠"
 echo -e "  ${cyan}2.  ${green}IPV6   "
 echo -e "  ${yellow}  ╰─━━━━─╯"
 echo -e "  ${yellow}  ╭─━━━━─╮⁠"
 echo -e "  ${cyan}3.  ${red}Exit   "
 echo -e "  ${yellow}  ╰─━━━━─╯"
-echo -e "${cyan}    ╭─────╮⁠"
+echo -e "${cyan}    ╭─━━━━─╮⁠"
 read -p "     Enter:" menu
 if [ "$menu" == "1" ];then
 cfwarpIP && endipv4 && endipresult && Endip_v4
