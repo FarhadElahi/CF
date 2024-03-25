@@ -205,10 +205,10 @@ exit
 }
 
 clear
-echo -e "${green}╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠"
+echo -e "${green}   ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠"
 echo -e "${green}          CloudFlare WARP"
 echo -e "${yellow}                         EndIP"
-echo -e "${yellow}╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
+echo -e "${yellow}   ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
 echo""
 echo -e "${purple}1.${green}IPV4"
 echo -e
@@ -216,7 +216,7 @@ echo -e "${purple}2.${green}IPV6"
 echo -e 
 echo -e "${purple}0.${green}Exit"
 echo -e
-read -p ${yellow}"Enter:" menu
+read -p "${yellow}"Enter:" menu
 if [ "$menu" == "1" ];then
 cfwarpIP && endipv4 && endipresult && Endip_v4
 elif [ "$menu" == "2" ];then
