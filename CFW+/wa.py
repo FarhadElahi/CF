@@ -22,10 +22,10 @@ else:
     default_id = "Not set"
     
 print("   ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠")
-print("                 CloudFlare WARP+                          ")
+print("                 CloudFlare WARP+                  ")
 print("   ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯")
 print("")
-referrer = input(f"[•] Enter Your ID                                     [Your ID: {default_id} ]:") or default_id
+referrer = input(f"[#] Enter Your ID                                     [Your ID: {default_id} ]:") or default_id
 
 def genString(stringLength):
 	try:
@@ -85,7 +85,7 @@ while True:
 			sys.stdout.flush()
 		print(f"\n[-] WORK ON ID: {referrer}")    
 		print(f"[:)] {g} GB HAS BEEN SUCCESSFULLY ENTERED INTO YOUR ACCOUNT.")
-		print(f"[•] Total: {g} Good {b} Bad")
+		print(f"[#] Total: {g} Good {b} Bad")
 		print("[*] AFTER 20 SECONDS A NEW REQUEST WILL BE SENT.")
 		print(f" Please wait 20 seconds...")
 		time.sleep(20)
@@ -96,4 +96,4 @@ while True:
 		print("WARP-PLUS-CLOUDFLARE ")
 		print("")
 		print("[:(] Error when connecting to server.")
-		print(f"[•] Total: {g} Good {b} Bad")
+		print(f"[#] Total: {g} Good {b} Bad")
