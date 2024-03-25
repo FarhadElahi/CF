@@ -21,7 +21,8 @@ for file_path in file_paths:
 else:
     default_id = "Not set"
     
-print ("    ======= CloudFlare WARP+ ======")
+print("==================================")
+print("                       CloudFlare WARP+                       ")                                              print("╰─━━━━━━━━━━━━━━━━━━━━━━━━─╯")
 print("")
 referrer = input(f"[#] Enter Your ID                                     [Your ID: {default_id} ]:") or default_id
 
