@@ -20,7 +20,6 @@ for file_path in file_paths:
         break
 else:
     default_id = "Not set"
-    
 print("   ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠")
 print("                 CloudFlare WARP+                          ")
 print("   ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯")
