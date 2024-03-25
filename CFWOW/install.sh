@@ -268,10 +268,10 @@ mv output.json output_$(date +"%Y%m%d_%H%M%S").json
 }
 menu(){
 clear
-echo "╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⁠"
 echo "        CloudFlare WARP+"
 echo "                        ON WARP"
-echo "╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo "1.Auto Scan"
 echo ""
 echo "2.Import Custom IP"
