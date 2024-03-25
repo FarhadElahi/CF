@@ -218,7 +218,7 @@ echo -e "  ${yellow}  ╭─━━━━─╮⁠"
 echo -e "  ${cyan}3.  ${red}Exit   "
 echo -e "  ${yellow}  ╰─━━━━─╯"
 echo -e "${cyan}    ╭─━━━━─╮⁠"
-read -p "     Enter :" menu
+read -p "      Enter:" menu
 if [ "$menu" == "1" ];then
 cfwarpIP && endipv4 && endipresult && Endip_v4
 elif [ "$menu" == "2" ];then
