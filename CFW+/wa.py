@@ -22,7 +22,7 @@ else:
     default_id = "Not set"
     
 print("   ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠")
-print("                 CloudFlare WARP+                  ")
+print("                CloudFlare WARP+                  ")
 print("   ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯")
 print("")
 referrer = input(f"[#] Enter Your ID                                     [Your ID: {default_id} ]:") or default_id
@@ -77,7 +77,7 @@ while True:
 		os.system('cls' if os.name == 'nt' else 'clear')
 		print("")
 		print("   ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠")
-                print("                 CloudFlare WARP+                  ")
+                print("                CloudFlare WARP+                  ")
                 print("   ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯")
 		print("")
 		animation = ["[■□□□□□□□□□] 10%","[■■□□□□□□□□] 20%", "[■■■□□□□□□□] 30%", "[■■■■□□□□□□] 40%", "[■■■■■□□□□□] 50%", "[■■■■■■□□□□] 60%", "[■■■■■■■□□□] 70%", "[■■■■■■■■□□] 80%", "[■■■■■■■■■□] 90%", "[■■■■■■■■■■] 100%"] 
