@@ -192,9 +192,9 @@ echo -e "${green}Results Saved in result.csv"
 echo""
 echo -e "${purple}╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮"
 if [ "$Endip_v4" ]; then
-  echo -e "${yellow} Best IPv4 ───► ${rest}$Endip_v4"
+  echo -e "${yellow} Best IPv4 ───► ${blue}$Endip_v4"
 elif [ "$Endip_v6" ]; then
-  echo -e "${yellow} Best IPv6 ───► ${rest}$Endip_v6"
+  echo -e "${yellow} Best IPv6 ───► ${blue}$Endip_v6"
 else
   echo -e "${red} No Valid IP Addresses Found"
 fi
@@ -205,7 +205,7 @@ exit
 }
 
 clear
-echo -e "${blue}   ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠"
+echo -e "${green}   ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠"
 echo -e "${green}          CloudFlare WARP"
 echo -e "${yellow}                         EndIP"
 echo -e "${yellow}   ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
