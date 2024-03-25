@@ -192,9 +192,9 @@ echo -e "${green}Results Saved in result.csv${rest}"
 echo""
 echo -e "${yellow}╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠${rest}"
 if [ "$Endip_v4" ]; then
-  echo -e "${yellow} Best IPv4 ───► ${purple}$Endip_v4 ${rest}"
+  echo -e "${yellow} Best IPv4 ───►     ${purple}$Endip_v4 ${rest}"
 elif [ "$Endip_v6" ]; then
-  echo -e "${yellow} Best IPv6 ───► ${purple}$Endip_v6 ${rest}"
+  echo -e "${yellow} Best IPv6 ───►     ${purple}$Endip_v6 ${rest}"
 else
   echo -e "${red} No valid IP addresses found.${rest}"
 fi
