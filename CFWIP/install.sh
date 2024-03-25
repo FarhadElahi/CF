@@ -205,7 +205,7 @@ exit
 }
 
 clear
-echo -e "${green}   ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠"
+echo -e "${blue}   ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠"
 echo -e "${green}          CloudFlare WARP"
 echo -e "${yellow}                         EndIP"
 echo -e "${yellow}   ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
