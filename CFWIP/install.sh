@@ -210,17 +210,18 @@ echo -e "${green}          CloudFlare WARP"
 echo -e "${yellow}                         EndIP"
 echo -e "${yellow}   ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
 echo""
-echo -e "${yellow}  ╭─━━━━─╮⁠"
-echo -e "${yellow}1. IPV4   "
-echo -e "${yellow}  ╰─━━━━─╯"
-echo -e "${yellow}  ╭─━━━━─╮⁠"
-echo -e "${yellow}2. IPV6   "
-echo -e "${yellow}  ╰─━━━━─╯"
-echo -e "${yellow}  ╭─━━━━─╮⁠"
-echo -e "${yellow}3. Exit   "
-echo -e "${yellow}  ╰─━━━━─╯"
-echo -e
+echo -e "  ${yellow}  ╭─━━━━─╮⁠"
+echo -e "  ${yellow}1.   IPV4   "
+echo -e "  ${yellow}  ╰─━━━━─╯"
+echo -e "  ${yellow}  ╭─━━━━─╮⁠"
+echo -e "  ${yellow}2.   IPV6   "
+echo -e "  ${yellow}  ╰─━━━━─╯"
+echo -e "  ${yellow}  ╭─━━━━─╮⁠"
+echo -e "  ${yellow}3.   Exit   "
+echo -e "  ${yellow}  ╰─━━━━─╯"
+echo -e╭─────╮⁠
 read -p "Enter:" menu
+echo -e╰─────╯
 if [ "$menu" == "1" ];then
 cfwarpIP && endipv4 && endipresult && Endip_v4
 elif [ "$menu" == "2" ];then
