@@ -188,7 +188,7 @@ cat result.csv | awk -F, '$3!="timeout ms" {print} ' | sort -t, -nk2 -nk3 | uniq
 Endip_v4=$(cat result.csv | grep -oE "[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+" | head -n 1)
 Endip_v6=$(cat result.csv | grep -oE "\[.*\]:[0-9]+" | head -n 1)
 echo""
-echo -e "${green}Results Saved in result.csv${rest}"
+echo -e "${green}Results Saved in result.csv"
 echo""
 echo -e "${yellow}╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮"
 if [ "$Endip_v4" ]; then
@@ -196,7 +196,7 @@ if [ "$Endip_v4" ]; then
 elif [ "$Endip_v6" ]; then
   echo -e "${yellow} Best IPv6 ───► ${purple}$Endip_v6 ${rest}"
 else
-  echo -e "${red} No valid IP addresses found.${rest}"
+  echo -e "${red} No Valid IP Addresses Found"
 fi
 echo -e "${yellow}╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
 rm warpendpoint
@@ -206,8 +206,8 @@ exit
 
 clear
 echo -e "${green}╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮⁠"
-echo -e "${green}          CloudFlare WARP${rest}"
-echo -e "${yellow}                       EndIP${rest}"
+echo -e "${green}          CloudFlare WARP"
+echo -e "${yellow}                       EndIP"
 echo -e "${green}╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
 echo""
 echo -e "${purple}1.${green}IPV4"
