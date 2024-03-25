@@ -211,13 +211,13 @@ echo -e "${yellow}                         EndIP"
 echo -e "${yellow}   ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
 echo""
 echo -e "${yellow}╭─━━━━─╮⁠"
-echo -e "${yellow}1. IPV4
+echo -e "${yellow}1. IPV4   "
 echo -e "${yellow}╰─━━━━─╯"
 echo -e "${yellow}╭─━━━━─╮⁠"
-echo -e "${yellow}2. IPV6
+echo -e "${yellow}2. IPV6   "
 echo -e "${yellow}╰─━━━━─╯"
 echo -e "${yellow}╭─━━━━─╮⁠"
-echo -e "${yellow}3. Exit
+echo -e "${yellow}3. Exit   "
 echo -e "${yellow}╰─━━━━─╯"
 echo -e
 read -p "Enter:" menu
