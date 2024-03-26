@@ -287,7 +287,9 @@ endipresult() {
 }
 
 clear
-echo -e "${purple}* ${green}Endpoint Scanner"
+echo -e "${green}    ╭─━━━━━━━━━━━━━━━━━━━─╮⁠"
+echo -e "${yellow}      CloudFlare WARP+ IP"
+echo -e "${green}    ╰─━━━━━━━━━━━━━━━━━━━─╯"
 echo -e "  ${yellow}  ╭─━━━━─╮⁠"
 echo -e "  ${cyan}1.  ${green}IPV4"
 echo -e "  ${yellow}  ╰─━━━━─╯"
@@ -298,10 +300,10 @@ echo -e "  ${yellow}  ╭─━━━━─╮⁠"
 echo -e "  ${cyan}3.  ${green}WGCF"
 echo -e "  ${yellow}  ╰─━━━━─╯"
 echo -e "  ${yellow}  ╭─━━━━─╮⁠"
-echo -e "  ${cyan}4.  ${red}  Exit"
+echo -e "  ${cyan}4.  ${red}Exit"
 echo -e "  ${yellow}  ╰─━━━━─╯"
 echo -e "${cyan}    ╭─━━━━─╮⁠"
-echo -en "${cyan}     Enter:"
+echo -en "${cyan}         Enter:"
 read -r Enter
 case "$Enter" in
     1)
