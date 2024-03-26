@@ -295,19 +295,19 @@ endipresult() {
 }
 
 clear
-echo -e "${green}    "
+echo -e ""
 echo -e "${yellow}      CloudFlare WARP WARP+"
-echo -e "${green}    "
-echo -e "  ${yellow}  "
+echo -e ""
+echo -e ""
 echo -e "  ${cyan}1.  ${green}IPV4   "
-echo -e "  ${yellow}  "
-echo -e "  ${yellow}  "
+echo -e ""
+echo -e ""
 echo -e "  ${cyan}2.  ${green}IPV6   "
-echo -e "  ${yellow}  "
+echo -e ""
 echo -e "${purple}3.WARP+ Config"
-echo -e "  ${yellow}  "
+echo -e ""
 echo -e "  ${cyan}3.  ${red}Exit   "
-echo -e "  ${yellow}  "
+echo -e ""
 echo -en "${cyan}Enter your choice: ${rest}"
 read -r choice
 case "$choice" in
