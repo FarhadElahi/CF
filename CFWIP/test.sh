@@ -187,7 +187,7 @@ generate() {
 			    pkg install curl -y
 			fi
             if [[ -n $cpu ]]; then
-                curl -o "$PREFIX/bin/wgcf" -L "https://raw.githubusercontent.com/Ptechgithub/warp/main/endip/wgcf"
+                curl -o "$PREFIX/bin/wgcf" -L "https://github.com/FarhadElahi/CF/main/CFWIP/wgcf"
                 chmod +x "$PREFIX/bin/wgcf"
             fi
         else
