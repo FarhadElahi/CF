@@ -245,15 +245,15 @@ show() {
     else
 	    Endip_v46="engage.cloudflareclient.com:2408"
 	fi
-    echo -e "${cyan}          ╭─━━━━━━─╮${yellow}              ╭─━━━━━━━━━─╮⁠"
-    echo -e "${yellow}             WARP  ─────────────────────${cyan}WireGuard"
-    echo -e "${cyan}          ╰─━━━━━━─╯${yellow}              ╰─━━━━━━━━━─╯"
+    echo -e "${cyan}          ╭─━━━━━━─╮${yellow}             ╭─━━━━━━━━━─╮⁠"
+    echo -e "${yellow}             WARP   ─────────────────${cyan}WireGuard"
+    echo -e "${cyan}          ╰─━━━━━━─╯${yellow}             ╰─━━━━━━━━━─╯"
     echo ""
     echo -e "${green}$(cat wgcf-profile.conf)"
     echo ""
-    echo -e "${cyan}          ╭─━━━━━─╮${yellow}             ╭─━━━━━━━━━─╮⁠"
-    echo -e "${yellow}             WARP ────────────────────${cyan}v2rayNG"
-    echo -e "${cyan}          ╰─━━━━━─╯${yellow}             ╰─━━━━━━━━━─╯"
+    echo -e "${cyan}          ╭─━━━━━━─╮${yellow}             ╭─━━━━━━━━━─╮⁠"
+    echo -e "${yellow}             WARP  ────────────────${cyan}v2rayNG"
+    echo -e "${cyan}          ╰─━━━━━━─╯${yellow}             ╰─━━━━━━━━━─╯"
     echo ""
     echo -e "${green}$(v2ray)"
 }
