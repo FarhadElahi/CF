@@ -252,7 +252,7 @@ show() {
     echo -e "${green}$(cat wgcf-profile.conf)"
     echo ""
     echo -e "${yellow}          ╭─━━━━━━━━━─╮⁠"
-    echo -e "${cyan}             v2rayNG                    ${blue}WARP"
+    echo -e "${cyan}             v2rayNG                  ${blue}WARP"
     echo -e "${yellow}          ╰─━━━━━━━━━─╯"
     echo ""
     echo -e "${green}$(v2ray)"
