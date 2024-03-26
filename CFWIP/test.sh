@@ -246,17 +246,16 @@ show() {
 	    Endip_v46="engage.cloudflareclient.com:2408"
 	fi
     echo -e "${yellow}          ╭─━━━━━━━─╮⁠"
-    echo -e "$${blue}      WireGuard" 
+    echo -e "${purple}                WireGuard" 
     echo -e "${yellow}          ╰─━━━━━━━─╯"
     echo ""
     echo -e "${green}$(cat wgcf-profile.conf)"
     echo ""
     echo -e "${yellow}          ╭─━━━━━━━─╮⁠"
-    echo -e "${blue}        v2rayNG"
+    echo -e "${purple}                   v2rayNG"
     echo -e "${yellow}          ╰─━━━━━━━─╯"
     echo ""
     echo -e "${green}$(v2ray)"
-    echo ""
 }
 
 endipresult() {
