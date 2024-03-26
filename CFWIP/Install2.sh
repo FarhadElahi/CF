@@ -255,6 +255,7 @@ show() {
     echo -e "${yellow}             WARP   ${green}─────────────   ${cyan}v2rayNG"
     echo -e "${cyan}          ╰─━━━━━━─╯${yellow}             ╰─━━━━━━━━━─╯"
     echo ""
+    echo -e ""
     echo -e "${green}$(v2ray)"
 }
 
@@ -285,8 +286,6 @@ endipresult() {
         echo -e "${red} No valid IP Addresses Found.${rest}"
     fi
     echo -e "${yellow}  ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
-    echo ""
-    echo -e""
     rm warpendpoint >/dev/null 2>&1
     rm -rf ip.txt
     exit
