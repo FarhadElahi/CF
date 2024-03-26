@@ -181,8 +181,7 @@ endipv6(){
 
 generate() {
     if ! command -v wgcf &>/dev/null; then
-        echo -e "${purple}*********************${rest}"
-        echo -e "${green}Downloading the required file ...${rest}"
+        echo -e "${green}Downloading The Required File..."
         if [[ "$(uname -o)" == "Android" ]]; then
 			if ! command -v curl &>/dev/null; then
 			    pkg install curl -y
@@ -197,12 +196,10 @@ generate() {
             chmod +x "$PREFIX/usr/local/bin/wgcf"
         fi
     fi
-    echo -e "${purple}*********************${rest}"
     echo -e "${green}Generating WireGuard Config Please Wait...${rest}"
     echo ""
     rm wgcf-account.toml >/dev/null 2>&1
     wgcf register --accept-tos
-    echo -e "${blue}***********************${rest}"
     wgcf generate
   
     if [ -f wgcf-profile.conf ]; then
@@ -299,14 +296,12 @@ echo -en "${cyan}Enter your choice: ${rest}"
 read -r choice
 case "$choice" in
     1)
-        echo -e "${purple}*********************${rest}"
         cfwarpIP
         endipv4
         endipresult
         Endip_v4
         ;;
     2)
-        echo -e "${purple}*********************${rest}"
         cfwarpIP
         endipv6
         endipresult
@@ -316,12 +311,9 @@ case "$choice" in
         generate
         ;;
     0)
-        echo -e "${purple}*********************${rest}"
-        echo -e "${cyan}By ðŸ–${rest}"
         exit
         ;;
     *)
-        echo -e "${yellow}********************${rest}"
-        echo "Invalid choice. Please select a valid option."
+        echo "Invalid Choice. Please Select a Valid Option."
         ;;
 esac
