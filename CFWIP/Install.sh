@@ -191,7 +191,7 @@ delay=$(cat result.csv | grep -oE "[0-9]+ ms|timeout" | head -n 1)
 echo""
 echo -e "${green}Results Saved in result.csv"
 echo""
-echo -e "${purple}  ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮"
+echo -e "${purple}  ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮"
 if [ "$Endip_v4" ]; then
   echo -e "${blue}   Best IPv4 ${green}───► ${yellow}$Endip_v4 ${green} - $delay"
 elif [ "$Endip_v6" ]; then
@@ -199,7 +199,7 @@ elif [ "$Endip_v6" ]; then
 else
   echo -e "${red} No Valid IP Addresses Found"
 fi
-echo -e "${purple}  ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
+echo -e "${purple}  ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
 rm warpendpoint
 rm -rf ip.txt
 exit
