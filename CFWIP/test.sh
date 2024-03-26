@@ -288,13 +288,13 @@ endipresult() {
 
 clear
 echo -e "${purple}* ${green}Endpoint Scanner"
-echo -e "${purple}[1] ${green} IPV4"
-echo -e "${purple}[2] ${green} IPV6"
-echo -e "${purple}[3] ${green}Get WireGuard Config"
-echo -e "${purple}[${red}0${purple}] Exit"
-echo -en "${cyan}Enter your choice: ${rest}"
-read -r choice
-case "$choice" in
+echo -e "${purple}1.${green} IPV4"
+echo -e "${purple}2.${green} IPV6"
+echo -e "${purple}3. ${green}Get WireGuard Config"
+echo -e "${red}4. Exit"
+echo -en "${cyan}Enter: ${rest}"
+read -r Enter
+case "$Enter" in
     1)
         cfwarpIP
         endipv4
@@ -310,7 +310,7 @@ case "$choice" in
     3)
         generate
         ;;
-    0)
+    4)
         exit
         ;;
     *)
