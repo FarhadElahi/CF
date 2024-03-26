@@ -245,7 +245,7 @@ show() {
     else
 	    Endip_v46="engage.cloudflareclient.com:2408"
 	fi
-    echo" ${green}    ━━━━━─────━━━━━─────━━━━━─────━━━━━─────━━━━━"
+    echo -e "${green}    ━━━━━─────━━━━━─────━━━━━─────━━━━━─────━━━━━"
     echo -e "${cyan}          ╭─━━━━━━─╮${yellow}             ╭─━━━━━━━━━─╮⁠"
     echo -e "${yellow}             WARP   ${green}─────────────   ${cyan}NekoBox"
     echo -e "${cyan}          ╰─━━━━━━─╯${yellow}             ╰─━━━━━━━━━─╯"
