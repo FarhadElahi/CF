@@ -230,7 +230,7 @@ v2ray() {
   PublicKey=$(awk -F' = ' '/PublicKey/{print $2}' wgcf-profile.conf)
   MTU=$(awk -F' = ' '/MTU/{print $2}' wgcf-profile.conf)
   
-  WireguardURL="wireguard://$(urlencode "$PrivateKey")@$Endip_v46?address=$(urlencode "$Address")&publickey=$(urlencode "$PublicKey")&mtu=$(urlencode "$MTU")#WARP+"
+  WireguardURL="wireguard://$(urlencode "$PrivateKey")@$Endip_v46?address=$(urlencode "$Address")&publickey=$(urlencode "$PublicKey")&mtu=$(urlencode "$MTU")#WARP"
 
   echo $WireguardURL
 }
