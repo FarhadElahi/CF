@@ -252,7 +252,7 @@ show() {
     echo -e "${green}$(cat wgcf-profile.conf)"
     echo ""
     echo -e "${yellow}          ╭─━━━━━━━━━─╮⁠"
-    echo -e "${cyan}             v2rayNG                   ${blue}WARP"
+    echo -e "${cyan}             v2rayNG                    ${blue}WARP"
     echo -e "${yellow}          ╰─━━━━━━━━━─╯"
     echo ""
     echo -e "${green}$(v2ray)"
@@ -277,13 +277,12 @@ endipresult() {
     echo -e "${green}Results Saved in result.csv${rest}"
     echo ""
     if [ "$Endip_v4" ]; then
-    echo -e "${purple}  ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮"
-    if [ "$Endip_v4" ]; then
-    echo -e "${blue}   Best IPv4 ${green}───► ${yellow}$Endip_v4 ${green} - $delay"
+        echo -e "${purple}  ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮"
+        echo -e "${yellow}Best IPv4${cyan}$Endip_v4${green} $delay"
     elif [ "$Endip_v6" ]; then
-    echo -e "${blue}   Best IPv6 ${green}───► ${yellow}$Endip_v6 ${green} - $delay"
+        echo -e "${yellow}Best IPv6${cyan}$Endip_v6${green} $delay"
     else
-    echo -e "${red} No Valid IP Addresses Found"
+        echo -e "${red} No valid IP addresses found.${rest}"
     fi
     echo -e "${purple}  ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
     rm warpendpoint >/dev/null 2>&1
