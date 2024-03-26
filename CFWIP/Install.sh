@@ -206,9 +206,9 @@ exit
 }
 
 clear
-echo -e "${green}    ╭─━━━━━━━━━━━━━━━━━━━━━─╮⁠"
-echo -e "${yellow}      CloudFlare WARP WARP+"
-echo -e "${green}    ╰─━━━━━━━━━━━━━━━━━━━━━─╯"
+echo -e "${green}    ╭─━━━━━━━━━━━━━━━━━━─╮⁠"
+echo -e "${yellow}      CloudFlare WARP+ IP"
+echo -e "${green}    ╰─━━━━━━━━━━━━━━━━━━─╯"
 echo -e "  ${yellow}  ╭─━━━━─╮⁠"
 echo -e "  ${cyan}1.  ${green}IPV4"
 echo -e "  ${yellow}  ╰─━━━━─╯"
