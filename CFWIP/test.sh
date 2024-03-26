@@ -288,11 +288,20 @@ endipresult() {
 
 clear
 echo -e "${purple}* ${green}Endpoint Scanner"
-echo -e "${purple}1.${green} IPV4"
-echo -e "${purple}2.${green} IPV6"
-echo -e "${purple}3. ${green}Get WireGuard Config"
-echo -e "${red}4. Exit"
-echo -en "${cyan}Enter: ${rest}"
+echo -e "  ${yellow}  ╭─━━━━─╮⁠"
+echo -e "  ${cyan}1.  ${green}IPV4"
+echo -e "  ${yellow}  ╰─━━━━─╯"
+echo -e "  ${yellow}  ╭─━━━━─╮⁠"
+echo -e "  ${cyan}2.  ${green}IPV6"
+echo -e "  ${yellow}  ╰─━━━━─╯"
+echo -e "  ${yellow}  ╭─━━━━─╮⁠"
+echo -e "  ${cyan}3.  ${green}WGCF"
+echo -e "  ${yellow}  ╰─━━━━─╯"
+echo -e "  ${yellow}  ╭─━━━━─╮⁠"
+echo -e "  ${cyan}4.  ${red}  Exit"
+echo -e "  ${yellow}  ╰─━━━━─╯"
+echo -e "${cyan}    ╭─━━━━─╮⁠"
+echo -en "${cyan}     Enter:"
 read -r Enter
 case "$Enter" in
     1)
