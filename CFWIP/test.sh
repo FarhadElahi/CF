@@ -198,7 +198,7 @@ generate() {
         fi
     fi
     echo -e "${purple}*********************${rest}"
-    echo -e "${green}Generating free warp config . please wait ...${rest}"
+    echo -e "${green}Generating WireGuard Config Please Wait...${rest}"
     echo ""
     rm wgcf-account.toml >/dev/null 2>&1
     wgcf register --accept-tos
@@ -233,7 +233,7 @@ v2ray() {
   PublicKey=$(awk -F' = ' '/PublicKey/{print $2}' wgcf-profile.conf)
   MTU=$(awk -F' = ' '/MTU/{print $2}' wgcf-profile.conf)
   
-  WireguardURL="wireguard://$(urlencode "$PrivateKey")@$Endip_v46?address=$(urlencode "$Address")&publickey=$(urlencode "$PublicKey")&mtu=$(urlencode "$MTU")#Peyman_WireGuard"
+  WireguardURL="wireguard://$(urlencode "$PrivateKey")@$Endip_v46?address=$(urlencode "$Address")&publickey=$(urlencode "$PublicKey")&mtu=$(urlencode "$MTU")#WARP+"
 
   echo $WireguardURL
 }
@@ -248,13 +248,13 @@ show() {
     else
 	    Endip_v46="engage.cloudflareclient.com:2408"
 	fi
-    echo -e "     ${cyan}Nekobox"
+    echo -e "${yellow}Nekobox"
     echo ""
     echo -e "${green}$(cat wgcf-profile.conf)"
     echo ""
-    echo -e "     ${yellow}V2rayNG"
+    echo -e "${cyan}V2rayNG"
     echo ""
-    echo -e "${green}$(v2ray)
+    echo -e "${green}$(v2ray)"
 }
 
 endipresult() {
@@ -275,34 +275,26 @@ endipresult() {
     echo ""
     echo -e "${green}Results Saved in result.csv${rest}"
     echo ""
-    echo -e ""
-if [ "$Endip_v4" ]; then
-  echo -e "${blue}   Best IPv4${yellow}$Endip_v4 ${green} - $delay"
-elif [ "$Endip_v6" ]; then
-  echo -e "${blue}   Best IPv6${yellow}$Endip_v6 ${green} - $delay"
-else
-  echo -e "${red} No Valid IP Addresses Found"
-fi
-echo -e "${purple}  "
-rm warpendpoint
-rm -rf ip.txt
-exit
+    if [ "$Endip_v4" ]; then
+        echo -e "${purple}  ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮"
+        echo -e "${yellow}Best IPv4${cyan}$Endip_v4${green} $delay"
+    elif [ "$Endip_v6" ]; then
+        echo -e "${yellow}Best IPv6${cyan}$Endip_v6${green} $delay"
+    else
+        echo -e "${red} No valid IP addresses found.${rest}"
+    fi
+    echo -e "${purple}  ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
+    rm warpendpoint >/dev/null 2>&1
+    rm -rf ip.txt
+    exit
 }
 
 clear
-echo -e "${cyan}By --> Peyman * Github.com/Ptechgithub * ${rest}"
-echo ""
-echo -e "${purple}*********************${rest}"
-echo -e "${purple}* ${green}Endpoint Scanner ${purple} *${rest}"
-echo -e "${purple}*********************${rest}"
-echo -e "${purple}[1] ${blue}Preferred${green} IPV4${purple}  * ${rest}"
-echo -e "${purple}                    *${rest}"
-echo -e "${purple}[2] ${blue}Preferred${green} IPV6${purple}  * ${rest}"
-echo -e "${purple}                    *${rest}"
-echo -e "${purple}[3] ${green}Get free Config${purple} *${rest}"
-echo -e "${purple}                    *${rest}"
-echo -e "${purple}[${red}0${purple}] Exit            *${rest}"
-echo -e "${purple}*********************${rest}"
+echo -e "${purple}* ${green}Endpoint Scanner"
+echo -e "${purple}[1] ${green} IPV4"
+echo -e "${purple}[2] ${green} IPV6"
+echo -e "${purple}[3] ${green}Get WireGuard Config"
+echo -e "${purple}[${red}0${purple}] Exit"
 echo -en "${cyan}Enter your choice: ${rest}"
 read -r choice
 case "$choice" in
@@ -325,7 +317,7 @@ case "$choice" in
         ;;
     0)
         echo -e "${purple}*********************${rest}"
-        echo -e "${cyan}By 🖐${rest}"
+        echo -e "${cyan}By ðŸ–${rest}"
         exit
         ;;
     *)
