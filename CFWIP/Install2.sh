@@ -196,7 +196,7 @@ generate() {
             chmod +x "$PREFIX/usr/local/bin/wgcf"
         fi
     fi
-    echo -e "${green}     Generating WireGuard Config Please Wait...${rest}"
+    echo -e "${green}            Generating WireGuard Config Please Wait...${rest}"
     echo ""
     rm wgcf-account.toml >/dev/null 2>&1
     wgcf register --accept-tos
