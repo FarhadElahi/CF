@@ -245,11 +245,11 @@ show() {
     else
 	    Endip_v46="engage.cloudflareclient.com:2408"
 	fi
-    echo -e "${yellow}          ━━━━━─────━━━━━─────━━━━━─────━━━━━"
-    echo""
+    echo" ${green}    ━━━━━─────━━━━━─────━━━━━─────━━━━━─────━━━━━"
     echo -e "${cyan}          ╭─━━━━━━─╮${yellow}             ╭─━━━━━━━━━─╮⁠"
     echo -e "${yellow}             WARP   ${green}─────────────   ${cyan}NekoBox"
     echo -e "${cyan}          ╰─━━━━━━─╯${yellow}             ╰─━━━━━━━━━─╯"
+    echo ""
     echo -e "     ━━━━━─────━━━━━─────━━━━━─────━━━━━─────━━━━━"
     echo -e "${green}$(cat wgcf-profile.conf)"
     echo -e "     ━━━━━─────━━━━━─────━━━━━─────━━━━━─────━━━━━"
