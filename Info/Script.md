@@ -4,7 +4,7 @@
 ___
 `CFWIP`
 ```
-bash <(curl -fsSL https://raw.githubusercontent.com/FarhadElahi/CF/main/CFWIP/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/FarhadElahi/CF/main/CFWIP/Install.sh)
 ```
 `CFIP`
 ```
