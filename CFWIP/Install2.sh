@@ -255,7 +255,7 @@ show() {
     echo -e "${yellow}             WARP   ${green}─────────────   ${cyan}v2rayNG"
     echo -e "${cyan}          ╰─━━━━━━─╯${yellow}             ╰─━━━━━━━━━─╯"
     echo ""
-    echo -e ""
+    echo -e "━━━━━━━━━━━━━─────━━━━━━━━━━━━━─────━━━━━━━━━━━━━─────━━━━━━━━━━━━━"
     echo -e "${green}$(v2ray)"
 }
 
