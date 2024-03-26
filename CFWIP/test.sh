@@ -245,15 +245,15 @@ show() {
     else
 	    Endip_v46="engage.cloudflareclient.com:2408"
 	fi
-    echo -e "${yellow}          ╭─━━━━━━━━━─╮⁠"
-    echo -e "${cyan}            WireGuard                ${yellow}WARP"
-    echo -e "${yellow}          ╰─━━━━━━━━━─╯"
+    echo -e "${yellow}          ╭─━━━━━━━━━─╮⁠${cyan}               ╭─━━━━━─╮⁠"
+    echo -e "${cyan}            WireGuard────────────────${yellow}WARP"
+    echo -e "${yellow}          ╰─━━━━━━━━━─╯${cyan}               ╰─━━━━━─╯"
     echo ""
     echo -e "${green}$(cat wgcf-profile.conf)"
     echo ""
-    echo -e "${yellow}          ╭─━━━━━━━━━─╮⁠"
-    echo -e "${cyan}             v2rayNG                 ${yellow}WARP"
-    echo -e "${yellow}          ╰─━━━━━━━━━─╯"
+    echo -e "${yellow}          ╭─━━━━━━━━━─╮⁠${cyan}               ╭─━━━━━─╮"
+    echo -e "${cyan}             v2rayNG────────────────${yellow}WARP"
+    echo -e "${yellow}          ╰─━━━━━━━━━─╯${cyan}               ╰─━━━━━─╯"
     echo ""
     echo -e "${green}$(v2ray)"
 }
@@ -277,14 +277,14 @@ endipresult() {
     echo -e "${green}Results Saved in result.csv${rest}"
     echo ""
     if [ "$Endip_v4" ]; then
-        echo -e "${yellow}  ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮"
+        echo -e "${yellow}  ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮"
         echo -e "${blue}     Best IPv4 ${green}───► ${yellow}$Endip_v4 ${green} - $delay"
     elif [ "$Endip_v6" ]; then
         echo -e "${blue}     Best IPv6 ${green}───► ${yellow}$Endip_v6 ${green} - $delay"
     else
         echo -e "${red} No valid IP Addresses Found.${rest}"
     fi
-    echo -e "${yellow}  ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
+    echo -e "${yellow}  ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
     rm warpendpoint >/dev/null 2>&1
     rm -rf ip.txt
     exit
