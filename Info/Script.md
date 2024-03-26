@@ -10,6 +10,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/FarhadElahi/CF/main/CFWIP/In
 ```
 bash <(curl -fsSL https://raw.githubusercontent.com/FarhadElahi/CF/main/CFWIP/Install2.sh)
 ```
+`License Key`
 ```
 WGCF_LICENSE_KEY="XXX" wgcf update
 ```
