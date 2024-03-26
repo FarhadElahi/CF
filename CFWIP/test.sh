@@ -277,14 +277,14 @@ endipresult() {
     echo -e "${green}Results Saved in result.csv${rest}"
     echo ""
     if [ "$Endip_v4" ]; then
-        echo -e "${purple}  ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮"
-        echo -e "${yellow}Best IPv4${cyan}$Endip_v4${green} $delay"
+        echo -e "${yellow}  ╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮"
+        echo -e "${blue}   Best IPv4 ${green}───► ${yellow}$Endip_v4 ${green} - $delay"
     elif [ "$Endip_v6" ]; then
-        echo -e "${yellow}Best IPv6${cyan}$Endip_v6${green} $delay"
+        echo -e "${blue}   Best IPv6 ${green}───► ${yellow}$Endip_v6 ${green} - $delay"
     else
-        echo -e "${red} No valid IP addresses found.${rest}"
+        echo -e "${red} No valid IP Addresses Found.${rest}"
     fi
-    echo -e "${purple}  ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
+    echo -e "${yellow}  ╰─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╯"
     rm warpendpoint >/dev/null 2>&1
     rm -rf ip.txt
     exit
