@@ -246,16 +246,17 @@ show() {
 	    Endip_v46="engage.cloudflareclient.com:2408"
 	fi
     echo -e "${yellow}          ╭─━━━━━━━─╮⁠"
-    echo -e "${yellow}                WireGuard" 
+    echo -e "${yellow}                WireGuard       " 
     echo -e "${yellow}          ╰─━━━━━━━─╯"
     echo ""
     echo -e "${green}$(cat wgcf-profile.conf)"
     echo ""
     echo -e "${yellow}          ╭─━━━━━━━─╮⁠"
-    echo -e "${yellow}                  v2rayNG"
+    echo -e "${yellow}                  v2rayNG        "
     echo -e "${yellow}          ╰─━━━━━━━─╯"
     echo ""
     echo -e "${green}$(v2ray)"
+    echo ""
 }
 
 endipresult() {
@@ -307,7 +308,7 @@ echo -e "  ${yellow}  ╭─━━━━─╮⁠"
 echo -e "  ${cyan}4.  ${red}Exit"
 echo -e "  ${yellow}  ╰─━━━━─╯"
 echo -e "${cyan}    ╭─━━━━─╮⁠"
-echo -en "${cyan}    Enter:"
+echo -en "${cyan}      Enter:"
 read -r Enter
 case "$Enter" in
     1)
