@@ -193,7 +193,7 @@ echo -e "${green}Results Saved in result.csv"
 echo""
 echo -e "${purple}╭─━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━─╮"
 if [ "$Endip_v4" ]; then
-  echo -e "${yblue} Best IPv4 ───► ${yellow}$Endip_v4"
+  echo -e "${yblue} Best IPv4 ───► ${yellow}$Endip_v4${green}[$delay]"
 elif [ "$Endip_v6" ]; then
   echo -e "${blue} Best IPv6 ───► ${yellow}$Endip_v6"
 else
@@ -210,13 +210,13 @@ echo -e "${green}    ╭─━━━━━━━━━━━━━━━━━�
 echo -e "${yellow}      CloudFlare WARP WARP+"
 echo -e "${green}    ╰─━━━━━━━━━━━━━━━━━━━━━─╯"
 echo -e "  ${yellow}  ╭─━━━━─╮⁠"
-echo -e "  ${cyan}1.  ${green}IPV4${green}[$delay]    "
+echo -e "  ${cyan}1.  ${green}IPV4"
 echo -e "  ${yellow}  ╰─━━━━─╯"
 echo -e "  ${yellow}  ╭─━━━━─╮⁠"
-echo -e "  ${cyan}2.  ${green}IPV6   "
+echo -e "  ${cyan}2.  ${green}IPV6"
 echo -e "  ${yellow}  ╰─━━━━─╯"
 echo -e "  ${yellow}  ╭─━━━━─╮⁠"
-echo -e "  ${cyan}3.  ${red}Exit   "
+echo -e "  ${cyan}3.  ${red}Exit"
 echo -e "  ${yellow}  ╰─━━━━─╯"
 echo -e "${cyan}    ╭─━━━━─╮⁠"
 read -p "      Enter:" menu
