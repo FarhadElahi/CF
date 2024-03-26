@@ -275,15 +275,15 @@ endipresult() {
     echo ""
     echo -e "${green}Results Saved in result.csv${rest}"
     echo ""
-    echo -e "${purple}  "
+    echo -e ""
 if [ "$Endip_v4" ]; then
-  echo -e "${blue}   Best IPv4 ${green} ${yellow}$Endip_v4 ${green} - $delay"
+  echo -e "${blue}   Best IPv4${yellow}$Endip_v4 ${green} - $delay"
 elif [ "$Endip_v6" ]; then
-  echo -e "${blue}   Best IPv6 ${green} ${yellow}$Endip_v6 ${green} - $delay"
+  echo -e "${blue}   Best IPv6${yellow}$Endip_v6 ${green} - $delay"
 else
   echo -e "${red} No Valid IP Addresses Found"
 fi
-echo -e "${purple}  "
+echo -e "${purple}  "
 rm warpendpoint
 rm -rf ip.txt
 exit
