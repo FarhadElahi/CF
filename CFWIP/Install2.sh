@@ -245,6 +245,8 @@ show() {
     else
 	    Endip_v46="engage.cloudflareclient.com:2408"
 	fi
+    echo -e
+    echo -e "          ━━━━━─────━━━━━─────━━━━━─────━━━━━"
     echo -e "${cyan}          ╭─━━━━━━─╮${yellow}             ╭─━━━━━━━━━─╮⁠"
     echo -e "${yellow}             WARP   ${green}─────────────   ${cyan}NekoBox"
     echo -e "${cyan}          ╰─━━━━━━─╯${yellow}             ╰─━━━━━━━━━─╯"
@@ -255,7 +257,7 @@ show() {
     echo -e "${yellow}             WARP   ${green}─────────────   ${cyan}v2rayNG"
     echo -e "${cyan}          ╰─━━━━━━─╯${yellow}             ╰─━━━━━━━━━─╯"
     echo ""
-    echo -e "━━━━━━━━━━━━━─────━━━━━━━━━━━━━─────━━━━━━━━━━━━━─────━━━━━━━━━━━━━"
+    echo -e "          ━━━━━─────━━━━━─────━━━━━─────━━━━━"
     echo -e "${green}$(v2ray)"
 }
 
@@ -268,6 +270,8 @@ endipresult() {
    else
         ./warpendpoint
     fi
+    echo ""
+    echo -e "          ━━━━━─────━━━━━─────━━━━━─────━━━━━"
     
     clear
     cat result.csv | awk -F, '$3!="timeout ms" {print} ' | sort -t, -nk2 -nk3 | uniq | head -11 | awk -F, '{print "Endpoint "$1" Packet Loss Rate "$2" Average Delay "$3}'
