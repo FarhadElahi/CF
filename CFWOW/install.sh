@@ -258,7 +258,7 @@ echo "$full_json" > output.json
 echo ""
 echo "${GREEN}Upload Files to Get Link${RESET}"
 echo ""
-echo "Your link:"          ━━━━━─────━━━━━─────━━━━━─────━━━━━          curl https://bashupload.com/ -T output.json | sed -e 's#wget#Your Link#' -e 's#https://bashupload.com/\(.*\)#https://bashupload.com/\1?download=1#'
+echo "Your link:"                            ━━━━━─────━━━━━─────━━━━━─────━━━━━                    curl https://bashupload.com/ -T output.json | sed -e 's#wget#Your Link#' -e 's#https://bashupload.com/\(.*\)#https://bashupload.com/\1?download=1#'
 echo "     ━━━━━─────━━━━━─────━━━━━─────━━━━━"
 echo ""
 mv output.json output_$(date +"%Y%m%d_%H%M%S").json
