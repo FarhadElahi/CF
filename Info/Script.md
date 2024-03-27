@@ -28,7 +28,7 @@ wget https://raw.githubusercontent.com/FarhadElahi/CF/main/CFW%2B/wa.py -O wa.py
 ```
 `CFWOW`
 ```
-curl -sSL https://raw.githubusercontent.com/FarhadElahi/CF/main/CFWOW/install.sh -o Install.sh && chmod +x Install.sh && bash Install.sh
+curl -sSL https://raw.githubusercontent.com/FarhadElahi/CF/main/CFWOW/Install.sh -o Install.sh && chmod +x Install.sh && bash Install.sh
 ```
 `CFZ`
 ```
